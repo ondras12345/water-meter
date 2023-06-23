@@ -3,7 +3,7 @@ This is a simple sensor for Sensus PN16 water meters.
 It uses an infrared LED and phototransistor to sense the metal disk on the
 x0.0001 m³ pointer wheel.
 
-![Sensus PN16 water meter](docs/img/meter.jpg)
+<img src="docs/img/meter.jpg" alt="Sensus PN16 water meter" width="50%">
 
 Sensus do sell an inductive sensor for this type of meter (Sensus HRI),
 but it is a bit pricey and needs batteries to operate.
@@ -21,7 +21,7 @@ one-off project, I did not spend much time fixing potential problems I
 discovered after milling the board.
 
 ![Bottom side of the PCB with IR LED and phototransistor protruding from the top side](docs/img/PCB-bot.jpg)
-![PCBA mounted on the water meter](docs/img/PCB-top.jpg)
+<img src="docs/img/PCB-top.jpg" alt="PCBA mounted on the water meter" width="75%">
 
 ## Software
 This part is a bit complicated. I connected the sensor to an STM32F103 board
